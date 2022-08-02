@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Start Links -->
+  <link rel="stylesheet" href="15_CSS/15_style.css">
+  <link rel="stylesheet" href="15_CSS/all.min.css">
+  <link rel="stylesheet" href="15_CSS/bootstrap.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <link rel="icon" href="images/purple.PNG">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- End Links -->
+
+  <title>Resi.</title>
+</head>
+
+<body>
+
+  <div class="go-up rounded-pill">
+    <span><i class="fa-solid fa-up-long"></i></span>
+  </div>
+
+  <nav class="position-fixed w-100">
+    <div class="container d-flex">
+      <div class="logo">
+        <h1>resi.</h1>
+      </div>
+      <div class="ul pt-2 d-none d-lg-block">
+        <ul class="list-unstyled d-flex text-center">
+          <li class="li active-link" data-take="header">home</li>
+          <li data-take=".about" class="li">about</li>
+          <div class="dropdown">
+            <li class="li dropdown dropdown-toggle " id="dropdownMenuButton1" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              features
+              <i class="fa-solid fa-angle-down"></i>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li data-take=".about"><a class="dropdown-item">f.a.q</a></li>
+                <li data-take=".features"><a class="dropdown-item">feat</a></li>
+              </ul>
+            </li>
+          </div>
+          <li data-take=".portfolio" class="li">portfolio</li>
+          <div class="dropdown">
+            <li class="li dropdown dropdown-toggle" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              services
+              <i class="fa-solid fa-angle-down"></i>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                <li data-take=".blogs"><a class="dropdown-item">blogs</a></li>
+                <li data-take="section"><a class="dropdown-item">service</a></li>
+                <li data-take=".pricing"><a class="dropdown-item">pricing</a></li>
+              </ul>
+            </li>
+          </div>
+          <li data-take=".contact" class="li">contact</li>
+        </ul>
+      </div>
+      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+        class="d-none d-lg-block btn rounded-0 head-btns">get
+        started</button>
+      <div class="small-nav d-lg-none">
+        <h2 class="small-nav text-white" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+          aria-controls="staticBackdrop">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </h2>
+      </div>
+    </div>
+  </nav>
+
+  <header class="background">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <div class="landing pt-lg-0 pt-5">
+      <div class="container pt-5 pt-lg-0 ">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-5 col-md-12 text-center text-lg-start  order-2 order-lg-1">
+            <h1 class="fw-lg-bolder">Better Digital Experience With Techie</h1>
+            <p class="fw-semibold">We are team of talented designers making websites with Bootstrap</p>
+            <div class="buttons d-flex align-items-center gap-2 justify-content-lg-start justify-content-center">
+              <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                class="btn rounded-0 head-btns">get started</button>
+              <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                class="btn bg-white head-btns rounded-0 d-none d-lg-block">request a quote</button>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12 order-1 order-lg-2 text-center">
+            <img src="https://bootstrapmade.com/demo/templates/Techie/assets/img/hero-img.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="svg">
+      <i class="fa-solid fa-angles-down position-absolute d-none d-lg-block"></i>
+    </div>
+  </header>
+  <section>
+    <div class="container pt-5 pb-5 mt-5 mb-5">
+      <div class="main-title text-center pb-5">
+        <h6 class="h">service</h6>
+        <h3>Veritatis et dolores facere numquam et praesentium</h3>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-12 col-xl-6 col-xxl-6 col-md-12 order-2 order-lg-1">
+          <h3 class="h pb-3">Voluptatem dignissimos provident quasi corporis ?</h3>
+          <p class="p fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna
+            aliqua.</p>
+          <ul class="list-unstyled">
+            <li class="p"><i class="fa-solid fa-circle-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.</li>
+            <li class="p"><i class="fa-solid fa-circle-check"></i> Duis aute irure dolor in reprehenderit in voluptate
+              velit.</li>
+            <li class="p"><i class="fa-regular fa-circle-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis</li>
+          </ul>
+          <p class="p">aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
+            nulla pariatur.</p>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            class="btn-hover btn rounded-pill border-0 text-white text-capitalize color-1">read
+            more</button>
+        </div>
+        <div
+          class="col-lg-0 col-xl-6 col-xxl-6 col-md-12 order-1 order-lg-2 mb-4 d-none d-lg-none d-xl-block d-sm-block d mb-lg-0">
+          <img src="https://bootstrapmade.com/demo/templates/Techie/assets/img/about.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="add text-center">
+    <div class="container pt-5 pb-4">
+      <div class="row">
+        <div class="col-xl-3 col-md-6 col-sm-12 mb-sm-4 position-relative">
+          <div class="icon rounded-circle">
+            <i class="fa-regular fa-face-smile-wink"></i>
+          </div>
+          <div class="info pt-4">
+            <h3 class="pt-3" data-end="87">-49</h3>
+            <p>happy clients</p>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 mb-sm-4 col-sm-12 position-relative">
+          <div class="icon rounded-circle">
+            <i class="fa-solid fa-sheet-plastic"></i>
+          </div>
+          <div class="info pt-4">
+            <h3 class="pt-3" data-end="164">0</h3>
+            <p>projects</p>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-12 mb-sm-4 position-relative">
+          <div class="icon rounded-circle">
+            <i class="fa-solid fa-headset"></i>
+          </div>
+          <div class="info pt-4">
+            <h3 class="pt-3" data-end="604">400</h3>
+            <p>hours of support</p>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-12 position-relative">
+          <div class="icon rounded-circle">
+            <i class="fa-solid fa-people-group"></i>
+          </div>
+          <div class="info pt-4">
+            <h3 class="pt-3" data-end="74">-50</h3>
+            <p>hard works</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="blogs pt-5 pb-5">
+    <div class="container pt-5 pb-5">
+      <div class="main-title text-center pb-4">
+        <h6 class="h">blogs</h6>
+        <h3>in this et section numquam about blogs</h3>
+      </div>
+      <div class="row align-items-center">
+        <div class="father col-lg-6 col-sm-12 position-relative order-2 order-lg-1">
+          <ul class="list-unstyled d-flex align-items-center flex-wrap">
+            <li class="active" data-blog=".one">development</li>
+            <li data-blog=".two">company</li>
+            <li data-blog=".three">programmers</li>
+          </ul>
+          <div class="b one ps-4 pt-2">
+            <div class="text d-flex pt-4 gap-4">
+              <i class="fa-regular fa-file-lines"></i>
+              <div class="top-text">
+                <h5>Est labore ad</h4>
+                  <p class="p">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+              </div>
+            </div>
+
+            <div class="text d-flex pt-4 gap-4">
+              <i class="fa-regular fa-folder-open"></i>
+              <div class="top-text">
+                <h5>in fact arrow</h5>
+                <p class="p">in this field will be like sunt quasi enim aliquam pariatur laboris nisi ut aliquip</p>
+              </div>
+            </div>
+            <div class="text d-flex pt-4 gap-4">
+              <i class="fa-solid fa-calendar-days"></i>
+              <div class="top-text">
+                <h5>deadline by the time</h5>
+                <p class="p">the time is the important thing here becuase laboris nisi ut aliquip</p>
+              </div>
+            </div>
+          </div>
+          <div class="b two  ps-4 pt-2">
+            <div class="text d-flex pt-4 gap-4">
+              <i class="fa-solid fa-glasses"></i>
+              <div class="top-text">
+                <h5>clothes shops</h4>
+                  <p class="p">sunt aut quasi enim aliquam quae harum and also it will be over</p>
+              </div>
+            </div>
+            <div class="text d-flex pt-4 gap-4">
+              <i class="fa-solid fa-paperclip"></i>
+              <div class="top-text">
+                <h5>notes at work</h5>
+                <p class="p">will make you convenient, harum pariatur laboris nisi ut aliquip</p>
+              </div>
+            </div>
+            <div class="text d-flex pt-4 gap-4">
+              <i class="fa-solid fa-tags"></i>
+              <div class="top-text">
+                <h5>code tages</h5>
+                <p class="p">if you filed in any one your project will be anonymous and loser</p>
+              </div>
+            </div>
+          </div>
+          <div class="b three  ps-4 pt-2">
+            <div class="text d-flex pt-4 gap-4">
+              <i class="fa-solid fa-mug-saucer"></i>
+              <div class="top-text">
+                <h5>morning coffee</h4>
+                  <p class="p">make you active harum pariatur laboris nisi ut on your behavior</p>
+              </div>
+            </div>
+            <div class="text d-flex pt-4 gap-4">
+              <i class="fa-solid fa-wallet"></i>
+              <div class="top-text">
+                <h5>code money</h5>
+                <p class="p">we know always coders gets much money because there work is smart aliquip</p>
+              </div>
+            </div>
+            <div class="text d-flex pt-4 gap-4">
+              <i class="fa-solid fa-bullhorn"></i>
+              <div class="top-text">
+                <h5>marketing ad</h5>
+                <p class="p">you should always do adds quae harum pariatur laboris nisi</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="img-col col-lg-6 col-sm-12 order-1 order-lg-2">
+          <img src="images/meeting.svg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="features text-center">
+    <div class="container">
+      <div class="main-title text-center pb-4">
+        <h6 class="h">features</h6>
+        <h3>of course company has a some features whats makes it good</h3>
+      </div>
+      <div class="row align-items-center">
+
+        <div class="col-md-6 col-xl-4 col-sm-12 mb-3">
+          <div class="box pt-4 pe-4 ps-4 pb-5" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="icon mb-3"><i class="fa-regular fs-3 fa-message"></i></div>
+            <h4 class="pt-2">Nesciunt Mete</h4>
+            <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis
+            </p>
+            <button class="btn">Read More <span class="ms-1"><i
+                  class="fa-solid fa-arrow-right-long"></i></span></button>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-4 col-sm-12 mb-3">
+          <div class="box pt-4 pe-4 ps-4 pb-5" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="icon mb-3"><i class="fa-regular fs-3 fa-comments"></i></div>
+            <h4 class="pt-2">Eosle Commodi</h4>
+            <p>Ut autem aut autem non if she Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non.
+            </p>
+            <button class="btn">Read More <span class="ms-1"><i
+                  class="fa-solid fa-arrow-right-long"></i></span></button>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-4 col-sm-12 mb-3">
+          <div class="box pt-4 pe-4 ps-4 pb-5" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="icon mb-3"><i class="fa-regular fs-3 fa-comment-dots"></i></div>
+            <h4 class="pt-2">Ledo Markt</h4>
+            <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos
+              earum
+              corrupti.</p>
+            <button class="btn">Read More <span class="ms-1"><i
+                  class="fa-solid fa-arrow-right-long"></i></span></button>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-4 col-sm-12 mb-3">
+          <div class="box pt-4 pe-4 ps-4 pb-5" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="icon mb-3"><i class="fa-regular fs-3 fa-comment-dots"></i></div>
+            <h4 class="pt-2">commond rest</h4>
+            <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident iof
+              cours she</p>
+            <button class="btn">Read More <span class="ms-1"><i
+                  class="fa-solid fa-arrow-right-long"></i></span></button>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-4 col-sm-12 mb-3">
+          <div class="box pt-4 pe-4 ps-4 pb-5" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="icon mb-3"><i class="fa-regular fs-3 fa-message"></i></div>
+            <h4 class="pt-2">Velit Doloremque</h4>
+            <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem.
+            </p>
+            <button class="btn">Read More <span class="ms-1"><i
+                  class="fa-solid fa-arrow-right-long"></i></span></button>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-4 col-sm-12 mb-3">
+          <div class="box pt-4 pe-4 ps-4 pb-5" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="icon mb-3"><i class="fa-regular fs-3 fa-comments"></i></div>
+            <h4 class="pt-2">Dolori Architecto</h4>
+            <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae
+              enim.</p>
+            <button class="btn">Read More <span class="ms-1"><i
+                  class="fa-solid fa-arrow-right-long"></i></span></button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio">
+    <div class="container pt-5 pb-5 mt-2 mb-5">
+      <div class="main-title text-center pb-4">
+        <h6 class="h">portfolio</h6>
+        <h3>our best works with clients</h3>
+      </div>
+      <ul class="justify-content-center mb-4 m-auto rounded-pill list-unstyled d-flex">
+        <li class="active rounded-pill" data-portfolio=".i">all</li>
+        <li class="rounded-pill" data-portfolio=".web">web</li>
+        <li class="rounded-pill" data-portfolio=".card">card</li>
+        <li class="rounded-pill" data-portfolio=".app">app</li>
+      </ul>
+      <div class="gallery">
+        <div class="img-1 i web">
+          <img src="https://bootstrapmade.com/demo/templates/Resi/assets/img/portfolio/portfolio-6.jpg" alt=""
+            class="img-fluid">
+          <div class="info text-white align-items-center d-flex flex-column justify-content-center">
+            <h5>chairs</h5>
+            <p class="text-white fw-light">web</p>
+            <div class="icons d-flex gap-2 justify-content-center">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-paperclip"></i>
+            </div>
+          </div>
+        </div>
+        <div class="img-2 i card border-0">
+          <img src="https://bootstrapmade.com/demo/templates/Resi/assets/img/portfolio/portfolio-8.jpg" alt=""
+            class="img-fluid">
+          <div class="info text-white align-items-center d-flex flex-column justify-content-center">
+            <h5>wine</h5>
+            <p class="text-white fw-light">app</p>
+            <div class="icons d-flex gap-2 justify-content-center">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-paperclip"></i>
+            </div>
+          </div>
+        </div>
+        <div class="img-3 i app">
+          <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/portfolio/portfolio-7.jpg" alt=""
+            class="fluid">
+          <div class="info text-white align-items-center d-flex flex-column justify-content-center">
+            <h5>drinks</h5>
+            <p class="text-white fw-light">web</p>
+            <div class="icons d-flex gap-2 justify-content-center">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-paperclip"></i>
+            </div>
+          </div>
+        </div>
+        <div class="img-4 i web">
+          <img src="images/g2.jpg" alt="" class="fluid">
+          <div class="info text-black align-items-center d-flex flex-column justify-content-center">
+            <h5>piramid</h5>
+            <p class="text-black fw-light">card</p>
+            <div class="icons d-flex gap-2 justify-content-center">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-paperclip"></i>
+            </div>
+          </div>
+        </div>
+        <div class="img-5 i">
+          <img src="images/g1.jpg" alt="" class="fluid">
+          <div class="info text-white align-items-center d-flex flex-column justify-content-center">
+            <h5>formila 1</h5>
+            <p class="text-white fw-light">web</p>
+            <div class="icons d-flex gap-2 justify-content-center">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-paperclip"></i>
+            </div>
+          </div>
+        </div>
+        <div class="img-6 i">
+          <img src="https://bootstrapmade.com/demo/templates/Resi/assets/img/portfolio/portfolio-7.jpg" alt=""
+            class="fluid">
+          <div class="info text-black align-items-center d-flex flex-column justify-content-center">
+            <h5>liens</h5>
+            <p class="text-black fw-light">app</p>
+            <div class="icons d-flex gap-2 justify-content-center">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-paperclip"></i>
+            </div>
+          </div>
+        </div>
+        <div class="img-7 i web">
+          <img src="https://bootstrapmade.com/demo/templates/Resi/assets/img/portfolio/portfolio-5.jpg" alt=""
+            class="fluid">
+          <div class="info text-white align-items-center d-flex flex-column justify-content-center">
+            <h5>lighter</h5>
+            <p class="text-white fw-light">app</p>
+            <div class="icons d-flex gap-2 justify-content-center">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-paperclip"></i>
+            </div>
+          </div>
+        </div>
+        <div class="img-8 i card border-0">
+          <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/portfolio/portfolio-2.jpg" alt=""
+            class="fluid">
+          <div class="info text-white align-items-center d-flex flex-column justify-content-center">
+            <h5>tea</h5>
+            <p class="text-white fw-light">card</p>
+            <div class="icons d-flex gap-2 justify-content-center">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-paperclip"></i>
+            </div>
+          </div>
+        </div>
+        <div class="img-9 i app">
+          <img src="https://bootstrapmade.com/demo/templates/Maxim/assets/img/portfolio/portfolio-1.jpg" alt=""
+            class="fluid">
+          <div class="info text-black align-items-center d-flex flex-column justify-content-center">
+            <h5>headset</h5>
+            <p class="text-black fw-light">web</p>
+            <div class="icons d-flex gap-2 justify-content-center">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-paperclip"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="min-feat mt-5 mb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <div class="bx fw-bolder" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa-solid fa-store pe-2"></i>
+            store website
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <div type="button" class="bx fw-bolder" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa-solid fa-cloud-showers-heavy pe-2"></i>
+            tempernature
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <div type="button" class="bx fw-bolder" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa-solid fa-database pe-2"></i>
+            banker coins
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <div type="button" class="bx fw-bolder" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa-solid fa-chart-column pe-2"></i>
+            companies count
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <div type="button" class="bx fw-bolder" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa-solid fa-champagne-glasses pe-2"></i>
+            night club
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <div type="button" class="bx fw-bolder" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa-regular fa-calendar-days pe-2"></i>
+            calander time
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <div type="button" class="bx fw-bolder" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa-solid fa-compact-disc pe-2"></i>
+            music app
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <div type="button" class="bx fw-bolder" data-bs-toggle="modal" data-bs-target="#examplemodal">
+            <i class="fa-solid fa-fingerprint pe-2"></i>
+            secerty houses
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <div type="button" class="bx fw-bolder" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa-solid fa-tower-cell pe-2"></i>
+            tower hack
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <div type="button" class="bx fw-bolder" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa-solid fa-plug pe-2"></i>
+            electricity dang
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <div type="button" class="bx fw-bolder" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa-solid fa-server pe-2"></i>
+            save server
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <div type="button" class="bx fw-bolder" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa-solid fa-archway pe-2"></i>
+            musiem decoration
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="team">
+    <div class="container">
+      <div class="main-title text-center pb-4">
+        <h6 class="h">team</h6>
+        <h3>workers of the week in our company</h3>
+      </div>
+      <div class="row pt-3">
+        <div class="col-xl-3 col-lg-4 col-sm-12 col-md-6 mb-3">
+          <div class="box">
+            <div class="social-md d-flex flex-column position-absolute gap-3">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div class="info position-absolute text-center">
+              <h5 class="m-auto pb-1 text-white">Ayoub benidir</h5>
+              <p class="m-auto pb-3 fws-italic text-white">Chief Executive Officer</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-12 col-md-6 mb-3">
+          <div class="box">
+            <div class="social-md d-flex flex-column position-absolute gap-3">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div class="info position-absolute text-center">
+              <h5 class="m-auto pb-1 text-white">sara mabrouki</h5>
+              <p class="m-auto pb-3 fws-italic text-white">product manager</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-12 col-md-6 mb-3">
+          <div class="box">
+            <div class="social-md d-flex flex-column position-absolute gap-3">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div class="info position-absolute text-center">
+              <h5 class="m-auto pb-1 text-white">khaled mabrouki</h5>
+              <p class="m-auto pb-3 fws-italic text-white">front-end developer</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-12 col-md-6 mb-3">
+          <div class="box">
+            <div class="social-md d-flex flex-column position-absolute gap-3">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div class="info position-absolute text-center">
+              <h5 class="m-auto pb-1 text-white">inas goat</h5>
+              <p class="m-auto pb-3 fws-italic text-white">ui/ux design</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="testimonial mt-5 mb-5 pt-3 mb-3">
+    <div class="container">
+      <div class="main-title text-center pb-4">
+        <h6 class="h">testimonial</h6>
+        <h3>workers of the week in our company</h3>
+      </div>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <div class="row">
+              <div class="col-sm-12 col-lg-6 mb-3">
+                <div class="box text-center p-3">
+                  <div class="starts pb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <p class="text-white"><span>&#10077</span>Proin iaculis purus consequat sem cure digni ssim donec
+                    porttitora entum
+                    suscipit rhoncus.
+                    Accusantium quam, ultricies
+                    eget id, aliquam eget nibh et. Maecen aliquam, risus at semper<span>&#10078</span></p>
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/testimonials/testimonials-1.jpg"
+                    alt="" class="w-25 pb-3 img-fluid">
+                  <h6 class="text-white fw-bold">camal bohamid</h6>
+                  <p class="text-white fw-light">stor owner</p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-lg-6">
+                <div class="box text-center p-3">
+                  <div class="starts pb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <p class="text-white"><span>&#10077</span>Proin iaculis purus consequat sem cure digni ssim donec
+                    porttitora entum
+                    suscipit rhoncus.
+                    Accusantium quam, ultricies
+                    eget id, aliquam eget nibh et. Maecen aliquam, risus at semper<span>&#10078</span></p>
+                  <img src="https://bootstrapmade.com/demo/templates/Maxim/assets/img/testimonials/testimonials-4.jpg"
+                    alt="" class="w-25 pb-3 img-fluid">
+                  <h6 class="text-white fw-bold">john bibido</h6>
+                  <p class="text-white fw-light">ceo & founder</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <div class="row">
+              <div class="col-sm-12 col-lg-6 mb-3">
+                <div class="box text-center p-3">
+                  <div class="starts pb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <p class="text-white"><span>&#10077</span>Proin iaculis purus consequat sem cure digni ssim donec
+                    porttitora entum
+                    suscipit rhoncus.
+                    Accusantium quam, ultricies
+                    eget id, aliquam eget nibh et. Maecen aliquam, risus at semper<span>&#10078</span></p>
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/testimonials/testimonials-3.jpg"
+                    alt="" class="w-25 pb-3 img-fluid">
+                  <h6 class="text-white fw-bold">soso margina</h6>
+                  <p class="text-white fw-light">freelancer</p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-lg-6">
+                <div class="box text-center p-3">
+                  <div class="starts pb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <p class="text-white"><span>&#10077</span>Proin iaculis purus consequat sem cure digni ssim donec
+                    porttitora entum
+                    suscipit rhoncus.
+                    Accusantium quam, ultricies
+                    eget id, aliquam eget nibh et. Maecen aliquam, risus at semper<span>&#10078</span></p>
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/testimonials/testimonials-2.jpg"
+                    alt="" class="w-25 pb-3 img-fluid">
+                  <h6 class="text-white fw-bold">mina zakri</h6>
+                  <p class="text-white fw-light">designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <div class="row">
+              <div class="col-sm-12 col-lg-6 mb-3">
+                <div class="box text-center p-3">
+                  <div class="starts pb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <p class="text-white"><span>&#10077</span>Proin iaculis purus consequat sem cure digni ssim donec
+                    porttitora entum
+                    suscipit rhoncus.
+                    Accusantium quam, ultricies
+                    eget id, aliquam eget nibh et. Maecen aliquam, risus at semper<span>&#10078</span></p>
+                  <img src="	https://bootstrapmade.com/demo/templates/Maxim/assets/img/team/team-4.jpg" alt=""
+                    class="w-25 pb-3 img-fluid">
+                  <h6 class="text-white fw-bold">soso margina</h6>
+                  <p class="text-white fw-light">freelancer</p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-lg-6">
+                <div class="box text-center p-3">
+                  <div class="starts pb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <p class="text-white"><span>&#10077</span>Proin iaculis purus consequat sem cure digni ssim donec
+                    porttitora entum
+                    suscipit rhoncus.
+                    Accusantium quam, ultricies
+                    eget id, aliquam eget nibh et. Maecen aliquam, risus at semper<span>&#10078</span></p>
+                  <img src="	https://bootstrapmade.com/demo/templates/Maxim/assets/img/team/team-1.jpg" alt=""
+                    class="w-25 pb-3 img-fluid">
+                  <h6 class="text-white fw-bold">mina zakri</h6>
+                  <p class="text-white fw-light">designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-indicators ">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active slider-btn"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button class="slider-btn" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button class="slider-btn" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about mt-5 mb-5 pt-5 pb-5">
+    <div class="container">
+      <div class="main-title text-center pb-4">
+        <h6 class="h">F.A.Q</h6>
+        <h3>freqeuntly asked questions</h3>
+      </div>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item mb-2">
+          <h4 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <i class="pe-2 fa-regular fa-circle-question"></i> Non consectetur a erat nam at lectus urna duis ?
+            </button>
+          </h4>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida.
+              Venenatis
+              lectus magna fringilla urna porttitor rhoncus dolor purus non.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item mb-2">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              <i class="pe-2 fa-regular fa-circle-question"></i> Feugiat scelerisque varius morbi enim nunc faucibus a
+              pellentesque?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec
+              ultrices.
+              Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper
+              dignissim. Mauris
+              ultrices eros in cursus turpis massa tincidunt dui.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item mb-2">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              <i class="pe-2 fa-regular fa-circle-question"></i> Dolor sit amet consectetur adipiscing elit pellentesque
+              habitant morbi?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
+              Faucibus pulvinar elementum integer enim. Sem
+              nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis
+              convallis
+              convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item mb-2">
+          <h2 class="accordion-header" id="flush-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              <i class="pe-2 fa-regular fa-circle-question"></i> Ac odio tempor orci dapibus. Aliquam eleifend mi in
+              nulla?
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
+              interdum velit laoreet id donec ultrices.
+              Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper
+              dignissim. Mauris
+              ultrices eros in cursus turpis massa tincidunt dui.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item mb-2">
+          <h2 class="accordion-header" id="flush-headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+              <i class="pe-2 fa-regular fa-circle-question"></i> Tempus quam pellentesque nec nam aliquam sem et tortor
+              consequat?
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim
+              suspendisse in est ante in. Nunc vel risus commodo
+              viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit
+              turpis cursus in
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+              <i class="pe-2 fa-regular fa-circle-question"></i> Tortor vitae purus faucibus ornare. Varius vel pharetra
+              vel turpis nunc eget lorem dolor?
+            </button>
+          </h2>
+          <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies
+              leo integer malesuada nunc vel. Tincidunt
+              eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus
+              vulputate eu
+              scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh
+              tellus molestie
+              nunc non blandit massa enim nec.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pricing">
+    <div class="container">
+      <div class="main-title text-center pb-4">
+        <h6 class="h">pricing</h6>
+        <h3>check our pricing</h3>
+      </div>
+      <div class="row text-center align-items-center">
+        <div class="col-xl-3 col-lg-4 col-sm-12 col-md-6 mb-3">
+          <div class="box bg-white p-3">
+            <h6>free plan</h6>
+            <div class="price pt-1 d-flex gap-1 justify-content-center">
+              <span class="fw-bolder">&#65284;</span>
+              <h3>0 <span>/ mo</span></h3>
+            </div>
+            <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/pricing-free.png" alt=""
+              class="img-fluid">
+            <ul class="list-unstyled text-start">
+              <li class="pt-2 pb-2 border-top"><i class="pe-2 fa-solid fa-check"></i> 10 gb hhd space</li>
+              <li class="pt-2 pb-2 border-top ps-4 text-decoration-line-through">5 email adresses</li>
+              <li class="pt-2 pb-2 border-top ps-4 text-decoration-line-through">2 Subdomains</li>
+              <li class="pt-2 pb-2 border-top ps-4 text-decoration-line-through">4 Databases</li>
+              <li class="pt-2 pb-2 border-top"><i class="pe-2 fa-solid fa-check"></i> Basic Support</li>
+            </ul>
+            <button class="btn rounded-pill" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">bay
+              now</button>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-12 col-md-6 mb-3">
+          <div class="box bg-white p-3">
+            <h6>Business plan</h6>
+            <div class="price pt-1 d-flex gap-1 justify-content-center">
+              <span class="fw-bolder">&#65284;</span>
+              <h3>10 <span>/ mo</span></h3>
+            </div>
+            <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/pricing-starter.png" alt=""
+              class="img-fluid">
+            <ul class="list-unstyled text-start">
+              <li class="pt-2 pb-2 border-top"><i class="pe-2 fa-solid fa-check"></i> 20 gb hhd space</li>
+              <li class="pt-2 pb-2 border-top"><i class="pe-2 fa-solid fa-check"></i> 8 email adresses</li>
+              <li class="pt-2 pb-2 border-top ps-4 text-decoration-line-through">4 Subdomains</li>
+              <li class="pt-2 pb-2 border-top ps-4 text-decoration-line-through">6 Databases</li>
+              <li class="pt-2 pb-2 border-top"><i class="pe-2 fa-solid fa-check"></i> business Support</li>
+            </ul>
+            <button class="btn rounded-pill" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">bay
+              now</button>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-12 col-md-6 mb-3">
+          <div class="box bg-white p-3">
+            <h6>advanced plan</h6>
+            <div class="price pt-1 d-flex gap-1 justify-content-center">
+              <span class="fw-bolder">&#65284;</span>
+              <h3>22 <span>/ mo</span></h3>
+            </div>
+            <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/pricing-business.png" alt=""
+              class="img-fluid">
+            <ul class="list-unstyled text-start">
+              <li class="pt-2 pb-2 border-top"><i class="pe-2 fa-solid fa-check"></i> 30 gb hhd space</li>
+              <li class="pt-2 pb-2 border-top"><i class="pe-2 fa-solid fa-check"></i> 10 email adresses</li>
+              <li class="pt-2 pb-2 border-top ps-4 text-decoration-line-through">4 Subdomains</li>
+              <li class="pt-2 pb-2 border-top"><i class="pe-2 fa-solid fa-check"></i> 8 Databases</li>
+              <li class="pt-2 pb-2 border-top"><i class="pe-2 fa-solid fa-check"></i> advanced Support</li>
+            </ul>
+            <button class="btn rounded-pill" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">bay
+              now</button>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-12 col-md-6 mb-3">
+          <div class="box bg-white p-3">
+            <h6>ulimate plan</h6>
+            <div class="price pt-1 d-flex gap-1 justify-content-center">
+              <span class="fw-bolder">&#65284;</span>
+              <h3>49 <span>/ mo</span></h3>
+            </div>
+            <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/pricing-ultimate.png" alt=""
+              class="img-fluid">
+            <ul class="list-unstyled text-start">
+              <li class="pt-2 pb-2 border-top"><i class="pe-2 fa-solid fa-check"></i> 40 gb hhd space</li>
+              <li class="pt-2 pb-2 border-top"><i class="pe-2 fa-solid fa-check"></i> 13 email adresses</li>
+              <li class="pt-2 pb-2 border-top"><i class="pe-2 fa-solid fa-check"></i> 6 Subdomains</li>
+              <li class="pt-2 pb-2 border-top"><i class="pe-2 fa-solid fa-check"></i> 12 Databases</li>
+              <li class="pt-2 pb-2 border-top"><i class="pe-2 fa-solid fa-check"></i> profisional Support</li>
+            </ul>
+            <button class="btn rounded-pill">bay now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clients mt-5 mb-5 pt-3 pb-3">
+    <div class="container">
+      <div class="main-title text-center pb-4">
+        <h6 class="h">our clients</h6>
+        <h3>the most popular companies has been deal with us</h3>
+      </div>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <div class="row align-items-center">
+              <div class="col-xl-2 col-md-4 col-sm-6">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-1.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+              <div class="col-xl-2 col-md-4 col-sm-6">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-2.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+              <div class="col-xl-2 col-md-4 col-sm-6">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-3.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+              <div class="col-xl-2  col-md-4 col-sm-6">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-4.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+              <div class="col-xl-2  col-md-4 col-sm-6 d-none d-md-block">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-5.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+              <div class="col-xl-2  col-md-4 col-sm-6 d-none d-md-block">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-6.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <div class="row align-items-center">
+              <div class="col-xl-2  col-md-4 col-sm-6">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-1.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+              <div class="col-xl-2 col-md-4 col-sm-6  d-none d-md-block">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-2.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+              <div class="col-xl-2 col-md-4 col-sm-6">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-3.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+              <div class="col-xl-2 col-md-4 col-sm-6">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-4.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+              <div class="col-xl-2  col-md-4 col-sm-6">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-5.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+              <div class="col-xl-2 col-md-4 col-sm-6  d-none d-md-block">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-6.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <div class="row align-items-center">
+              <div class="col-xl-2  col-md-4 col-sm-6  d-none d-md-block">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-4.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+              <div class="col-xl-2  col-md-4 col-sm-6">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-2.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+              <div class="col-xl-2  col-md-4 col-sm-6">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-6.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+              <div class="col-xl-2  col-md-4 col-sm-6  d-none d-md-block">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-3.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+              <div class="col-xl-2  col-md-4 col-sm-6">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-1.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+              <div class="col-xl-2  col-md-4 col-sm-6">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-5.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <div class="row align-items-center">
+              <div class="col-xl-2 col-md-4 col-sm-6">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-1.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+              <div class="col-xl-2  col-md-4 col-sm-6">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-3.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+              <div class="col-xl-2  col-md-4 col-sm-6">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-4.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+              <div class="col-xl-2  col-md-4 col-sm-6">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-6.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+              <div class="col-xl-2  col-md-4 col-sm-6  d-none d-md-block">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-2.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+              <div class="col-xl-2 col-md-4 col-sm-6  d-none d-md-block">
+                <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/clients/client-5.png" alt=""
+                  class="w-75 img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+            class="rounded-pill active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="rounded-pill"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="rounded-pill"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" class="rounded-pill"
+            aria-label="Slide 4"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact mt-5 mb-5 pt-3 pb-2">
+    <div class="container">
+      <div class="main-title text-center pb-4">
+        <h6 class="h">our clients</h6>
+        <h3>the most popular companies has been deal with us</h3>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="row text-center">
+            <div class="col-12 mb-3">
+              <div class="box">
+                <i class="fa-solid fa-location-dot mb-2"></i>
+                <h5>our address</h5>
+                <p>A 194 khaled street,biskra,chetma 3746</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12 mb-3">
+              <div class="box">
+                <i class="fa-regular fa-envelope"></i>
+                <h5>email us</h5>
+                <p class="mb-0">khaled@gmail.com</p>
+                <p>mabrouki@gmail.com</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12 mb-3">
+              <div class="box">
+                <i class="fa-solid fa-phone-volume"></i>
+                <h5>call us</h5>
+                <p class="mb-0">+1 5589 55488 55</p>
+                <p>+1 6678 254445 41</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="box p-4">
+            <form>
+              <div class="row">
+                <div class="col-sm-12 col-md-6 mb-3">
+                  <input type="email" required maxlength="25" placeholder="your email" class="p-2 w-100">
+                </div>
+                <div class="col-sm-12 col-md-6 mb-3">
+                  <input type="password" required maxlength="15" placeholder="your password" class="w-100 p-2">
+                </div>
+                <div class="col-12 mb-3">
+                  <input type="text" maxlength="45" placeholder="subject" class="p-2 w-100">
+                </div>
+                <div class="col-12 mb-3">
+                  <textarea placeholder="message" class="p-2 w-100"></textarea>
+                </div>
+                <div class="col-12 text-center">
+                  <input type="submit" value="send message"
+                    class="btn-hover btn rounded-pill border-0 text-white text-capitalize color-1">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-white">
+    <div class="container pt-5 pb-3">
+      <div class="row pb-2">
+        <div class="col-xl-3 col-lg-6 col-md-12 col-sm-12 mb-md-3">
+          <div class="box">
+            <div class="logo">
+              <h1>resi.</h1>
+            </div>
+            <p class="text-white mt-4 mb-2 pb-1">A 194 Khaled Street,Biskra,Chetma 3746 algeria</p>
+            <p class="text-white mb-0 mt-4"><span class="fw-bolder">phone:</span> +1 5589 55488 55</p>
+            <p class="text-white"><span class="fw-bolder">email:</span> Khaled@Gmail.Com</p>
+          </div>
+        </div>
+        <div class="col-xl-2 col-md-6 col-lg-6 col-sm-12 mb-md-3">
+          <div class="box">
+            <h5>useful links</h5>
+            <ul class="text-white list-unstyled">
+              <li data-take="header"><i class="fa-solid fa-angle-right pe-1"></i> home</li>
+              <li data-take=".about"><i class="fa-solid fa-angle-right pe-1"></i> about us</li>
+              <li data-take="section"><i class="fa-solid fa-angle-right pe-1"></i> service</li>
+              <li data-take=".portfolio"><i class="fa-solid fa-angle-right pe-1"></i> portfolio</li>
+              <li><i class="fa-solid fa-angle-right pe-1"></i> terms of service</li>
+              <li><i class="fa-solid fa-angle-right pe-1"></i> Privacy policy</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-lg-6 col-sm-12 mb-md-3">
+          <div class="box">
+            <h5>our service</h5>
+            <ul class="text-white list-unstyled">
+              <li><i class="fa-solid fa-angle-right pe-1"></i> web design</li>
+              <li><i class="fa-solid fa-angle-right pe-1"></i> web development</li>
+              <li><i class="fa-solid fa-angle-right pe-1"></i> prodect manager</li>
+              <li><i class="fa-solid fa-angle-right pe-1"></i> portfolio</li>
+              <li><i class="fa-solid fa-angle-right pe-1"></i> markting</li>
+              <li><i class="fa-solid fa-angle-right pe-1"></i> graphic design</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-12 col-lg-6 col-sm-12 mb-md-3">
+          <div class="box">
+            <h5>join our newsletter</h5>
+            <p class="text-white pb-4">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" class="d-flex  mt-xl-5">
+              <input type="email" required maxlength="25">
+              <input type="submit" value="subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="end mt-3 pt-4  border-top d-flex justify-content-between">
+        <p class="text-white w-25 pt-2"><span>&copy;</span> copyright <span class="fw-bold">rese.</span> all Rights
+          Reserved
+          Designed by <span class="my fw-bold">khaled mabrouki</span></p>
+        <ul class="list-unstyled pt-2 d-flex gap-1">
+          <li class="rounded-pill"><i class="fa-brands fa-facebook-f"></i></li>
+          <li class="rounded-pill"><i class="fa-brands fa-twitter"></i></li>
+          <li class="rounded-pill"><i class="fa-brands fa-instagram"></i></li>
+          <li class="rounded-pill"><i class="fa-brands fa-skype"></i></li>
+          <li class="rounded-pill"><i class="fa-brands fa-linkedin-in"></i></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- nav small -->
+
+  <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+    aria-labelledby="staticBackdropLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="staticBackdropLabel">links</h5>
+      <button type="button" class="btn" data-bs-dismiss="offcanvas" aria-label="Close"><i
+          class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="offcanvas-body">
+      <div>
+        <ul class="list-unstyled">
+          <li class="active-li" data-take="header">home</li>
+          <li data-take=".about">about</li>
+          <li class="liHidden1">features <i class="fa-solid fa-angle-down"></i>
+            <ul class="ulHidden1 list-unstyled">
+              <li data-take=".about">f.a.q</li>
+              <li data-take=".features">feat</li>
+            </ul>
+          </li>
+          <li data-take=".portfolio">portfolio</li>
+          <li class="liHidden">services <i class="fa-solid fa-angle-down"></i>
+            <ul class="ulHidden list-unstyled">
+              <li data-take=".blogs">blogs</li>
+              <li data-take="section">service</li>
+              <li data-take=".pricing">pricing</li>
+            </ul>
+          </li>
+          <li data-take=".contact">contact</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="randomi">
+    <div class="container align-items-center p-2 pt-3 pb-3 d-flex flex-row justify-content-between">
+      <div class="box d-flex gap-3">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+      <div class="box">
+        <form action="" class='d-flex align-items-center'>
+          <input type="text" placeholder="search">
+          <i class="search fa-solid fa-search"></i>
+        </form>
+      </div>
+      <div class="box d-flex gap-3">
+        <div class="b  d-flex gap-3">
+          <i class="fa-solid fa-video"></i>
+          <i class="fa-solid fa-table-cells"></i>
+          <i class="fa-solid fa-bell"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Start Js -->
+  <script src="15_Javascript/15_main.js"></script>
+  <script src="15_Javascript/all.min.js"></script>
+  <script src="15_Javascript/bootstrap.bundle.min.js"></script>
+  <!-- End Js -->
+
+</body>
+
+</html>
